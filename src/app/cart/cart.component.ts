@@ -30,4 +30,8 @@ export class CartComponent implements OnInit {
     this.checkoutForm.reset();
   }
 
+  purchasee(){
+    alert("checkout successful");
+  }
+
 }
